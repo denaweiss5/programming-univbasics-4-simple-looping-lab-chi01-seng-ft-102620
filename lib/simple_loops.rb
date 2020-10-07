@@ -21,10 +21,10 @@ def loop_message_n_times (message, number)
 end
 
 def output_array(array)
-  counter = 0
-  while counter < array.length do
+  count = 0
+  while count < array.length do
     puts array[count]
-    counter +=1
+    count +=1
   end
   end
 
