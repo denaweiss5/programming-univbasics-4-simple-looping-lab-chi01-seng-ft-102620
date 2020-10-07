@@ -20,20 +20,8 @@ def loop_message_n_times (message, number)
   end
 end
 
-def output_array(array, number)
-  array = ["Be yourself;", "everyone else is already taken", "- Oscar Wilde"]
-  puts array[0]
-  puts array[1]
-  puts array[2]
-
-number =5
-while array = [5, 4, 3, 2, 1] do
-  puts array[0]
-  puts array[1]
-  puts array[2]
-  puts array[3]
-  puts array[4]
-end
+def output_array(message)
+  message = ["Be yourself;", "everyone else is already taken", "- Oscar Wilde"]
 end
 
 def return_string_array(array)
