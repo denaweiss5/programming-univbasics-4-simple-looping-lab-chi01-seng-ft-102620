@@ -21,7 +21,14 @@ def loop_message_n_times (message, number)
 end
 
 def output_array(message)
+  counter = 0
   message = ["Be yourself;", "everyone else is already taken", "- Oscar Wilde"]
+  while message[counter] do
+    puts message[counter]
+    counter +=1
+  end
+
+
 end
 
 def return_string_array(array)
